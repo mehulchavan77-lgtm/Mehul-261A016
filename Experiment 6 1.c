@@ -1,0 +1,22 @@
+/*
+ * Name: Mehul
+ * UIN: 261A016
+ */
+
+#include <stdio.h>
+void counter(void)
+{
+    static int count = 0;
+    count++;
+    printf("Function called %d times\n", count);
+}
+
+int main(void)
+{
+    counter();
+    counter();
+    counter();
+    counter();
+    counter();
+    return 0;
+}
